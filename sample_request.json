@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "urlPath": "https://en.wikipedia.org/wiki/Main_Page",
+            "urlData": {
+                "id": "123",
+                "name": "Harsh"
+            },
+            "please note": "that you return from puppet/page.executor will be in executeResults"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@hashlucifer/automated-chromium-cluster-rest",
+  "version": "1.0.1",
+  "description": "This project serves a REST api to automate task on list of webpage URL to gather data on chromium clusters. Have you ever got stuck in data gathering process. This api can help you automating data gathering using a simple POST request. you can write your javascript method to retrieve anything that you want from the page.",
+  "main": "start.js",
+  "scripts": {
+    "installer": "npm install --unsafe-perm=true",
+    "start": "nodemon start.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashlucifer/automated-chromium-cluster-rest.git"
+  },
+  "author": "Harsh Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.24.0",
+    "puppeteer": "^1.18.1",
+    "puppeteer-cluster": "^0.16.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {
+    "dot-prop": ">=5.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
