@@ -126,3 +126,6 @@ PAGE_SCRIPT_LOCATION=http://localhost:3000/script.js
 * ENV Loader `dotenv`
 * Logger `winston`
 * Log Rotation `winston-daily-rotate-file`
+
+### Check wiki for more...
+Check out the [wiki](https://github.com/hashlucifer/automated-chromium-cluster/wiki) page for more instructions
